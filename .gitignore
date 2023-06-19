@@ -1,0 +1,25 @@
+# MacOs
+.DS_Store
+
+# JetBrain IDE's
+.idea
+
+# VSCode
+.vscode
+
+# Dependancies
+node_modules
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Env
+.env
+
+# Build
+dist
+build
